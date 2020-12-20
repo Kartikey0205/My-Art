@@ -1,7 +1,9 @@
 .penguin {
   
     /* Only change code below this line */
-    --penguin-skin: black;
+
+    --penguin-skin:black;
+
     --penguin-belly: gray;
     --penguin-beak: yellow;
     /* Only change code above this line */
@@ -40,7 +42,8 @@
     left: -5%;
     background: var(--penguin-skin, gray);
     width: 30%;
-    height: 60%;
+  height: 75%;
+
     border-radius: 30% 30% 120% 30%;
     transform: rotate(45deg);
     z-index: -1;
@@ -51,14 +54,18 @@
     left: 75%;
     background: var(--penguin-skin, gray);
     width: 30%;
-    height: 60%;
+
+    height: 75%;
+
     border-radius: 30% 30% 30% 120%;
     transform: rotate(-45deg);
     z-index: -1;
   }
 
   .right-cheek {
-    top: 15%;
+
+    top: 20%;
+
     left: 35%;
     background: var(--penguin-belly, white);
     width: 60%;
@@ -67,7 +74,9 @@
   }
 
   .left-cheek {
-    top: 15%;
+
+    top:20%;
+
     left: 5%;
     background: var(--penguin-belly, white);
     width: 60%;
